@@ -8,7 +8,7 @@ import java.util.Objects;
 
 
 public class App {
-    API API = new API("https://pixabay.com/api/?key=44346277-51350bd1bf6fa8fc1d53f9f53&q=dragon+fantasy");
+    API API = new API("https://pixabay.com/api/?key=xxx&q=dragon+fantasy");
     Response resp = null;
     int current_hit = 0;
     String previous_query = null;
